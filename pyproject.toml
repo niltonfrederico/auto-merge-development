@@ -16,9 +16,9 @@ requires = ["poetry-core>=2.0.0,<3.0.0"]
 
 [tool.poetry.dependencies]
 python = ">=3.13"
-fastapi = "^0.68.0" # Use older version
+fastapi = "^0.116.1" # Use older version
 
 [tool.poetry.group.dev.dependencies]
-requests = "^2.25.0" # Use older version to trigger updates
-pytest = "^6.0.0"    # Use older version
-mypy = "^0.910"      # Use older version
+requests = "^2.32.4" # Use older version to trigger updates
+pytest = "^8.4.1"    # Use older version
+mypy = "^1.17"      # Use older version
