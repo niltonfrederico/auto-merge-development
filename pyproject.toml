@@ -3,13 +3,11 @@ name = "auto-merge-development"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Nilton Teixeira",email = "9078708+niltonfrederico@users.noreply.github.com"}
+    { name = "Nilton Teixeira", email = "9078708+niltonfrederico@users.noreply.github.com" },
 ]
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = [
-    "django (==5)"
-]
+dependencies = ["django>=5"]
 
 [tool.poetry]
 package-mode = false
