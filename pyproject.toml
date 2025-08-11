@@ -7,12 +7,20 @@ authors = [
 ]
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = ["django>=5"]
 
 [tool.poetry]
 package-mode = false
 
-
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.25.0" # Use older version to trigger updates
+pytest = "^6.0.0"    # Use older version
+black = "^21.0.0"    # Use older version
+fastapi = "^0.68.0"  # Use older version
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.910"   # Use older version
+coverage = "^5.5" # Use older version
