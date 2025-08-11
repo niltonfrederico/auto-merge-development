@@ -2,6 +2,9 @@ version: 2
 updates:
   - package-ecosystem: "pip"
     directory: "/"
+    schedule:
+      interval: "daily"
+      time: "12:00"
     target-branch: "main"
     groups:
       patches:
