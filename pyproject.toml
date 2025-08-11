@@ -6,7 +6,7 @@ authors = [
     { name = "Nilton Teixeira", email = "9078708+niltonfrederico@users.noreply.github.com" },
 ]
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.13"
 
 [tool.poetry]
 package-mode = false
@@ -15,10 +15,10 @@ package-mode = false
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 
 [tool.poetry.dependencies]
-python = ">=3.10"
-requests = "^2.25.0" # Use older version to trigger updates
-pytest = "^6.0.0"    # Use older version
-fastapi = "^0.68.0"  # Use older version
+python = ">=3.13"
+fastapi = "^0.68.0" # Use older version
 
 [tool.poetry.group.dev.dependencies]
-mypy = "^0.910" # Use older version
+requests = "^2.25.0" # Use older version to trigger updates
+pytest = "^6.0.0"    # Use older version
+mypy = "^0.910"      # Use older version
