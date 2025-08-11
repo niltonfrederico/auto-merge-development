@@ -9,4 +9,6 @@ updates:
     groups:
       patches:
         update-types:
+          - "major"
+          - "minor"
           - "patch"
